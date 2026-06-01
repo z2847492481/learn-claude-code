@@ -14,6 +14,6 @@ def agent_loop(messages: list):
             return
         for tool_call in response.message.tool_calls:
             # 从toolMap中获取工具，并执行调用
-            res = toolMap.get(tool_call.tool_name)(**tool_call.function.arguments)
+            res = toolMap.get(tool_call.function.name)(**tool_call.function.arguments)
             # 把每一次调用结果都append到messages中
             messages.append({"role": "tool", "tool_name": tool_call.function.name, "content": str(res)})
