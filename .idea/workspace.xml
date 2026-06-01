@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="09995452-1d00-46c6-8218-e2467181458d" name="Changes" comment="core loop implement" />
+    <list default="true" id="09995452-1d00-46c6-8218-e2467181458d" name="Changes" comment="update core loop">
+      <change beforePath="$PROJECT_DIR$/01_agent_loop.py" beforeDir="false" afterPath="$PROJECT_DIR$/01_agent_loop.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -85,12 +87,29 @@
       <option name="project" value="LOCAL" />
       <updated>1780317856063</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="update core loop">
+      <option name="closed" value="true" />
+      <created>1780318082444</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1780318082444</updated>
+    </task>
+    <task id="LOCAL-00005" summary="update core loop">
+      <option name="closed" value="true" />
+      <created>1780318179672</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1780318179672</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init" />
     <MESSAGE value="core loop implement" />
-    <option name="LAST_COMMIT_MESSAGE" value="core loop implement" />
+    <MESSAGE value="update core loop" />
+    <option name="LAST_COMMIT_MESSAGE" value="update core loop" />
   </component>
 </project>
