@@ -8,7 +8,7 @@ toolMap = {}
 def agent_loop(messages: list):
     while True:
         response = chat(model="qwen3:8b", messages=messages, tools=tools, think=True)
-        messages.append(response.message.content)
+        messages.append(response.message)
         # 如果大模型不需要调用工具，则直接返回
         if not response.message.tool_calls:
             return
